@@ -57,5 +57,5 @@ By default, the [named volume](https://docs.docker.com/compose/compose-file/#vol
 If you want to delete MySQL data intentionally, execute the following command.
 
 ```bash
-$ docker-compose down -v && docker-compose up
+$ docker compose down -v && docker compose up
 ```
